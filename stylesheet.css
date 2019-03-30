@@ -69,19 +69,25 @@ margin: 1rem 2rem 1rem 2rem;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    grid-gap: 3rem;
+   padding: 3rem 0 3rem 0;
  }
 
  .gradient-container {
-display: flexbox;
-align-content: center;
-   height: 20rem;
-   width: 15rem;
+text-align: right;
+   height: 29rem;
+   width: 20rem;
+   margin: auto;
  }
 
  .grid a {
-   font-size: 0.7rem;
+   font-size: 0.9rem;
   color: #7a7a7a;
    }
+
+   .grid a:hover {
+   font-family: 'Noah-Italic', Merriweather, Arial, Sans-Serif;
+   text-decoration: underline;
+    }
 
    /* GRADIENTS */
 
@@ -89,4 +95,16 @@ align-content: center;
   height: 100%;
   width: 100%;
   background-color: aqua;
+}
+
+.slippery-gradient {
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+}
+
+.prince-gradient {
+  height: 100%;
+  width: 100%;
+  background-color: purple;
 }
