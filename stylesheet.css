@@ -94,7 +94,24 @@ text-align: right;
 .sunrise-gradient {
   height: 100%;
   width: 100%;
-  background-color: aqua;
+  background-image: linear-gradient(to right, rgba(167, 198, 255, 1), rgba(103, 156, 255, 0.8));
+}
+
+.sunrise-gradient-red {
+  height: 80%;
+  width: 85%;
+  margin-left: 10%;
+  background-image: linear-gradient(
+      to left,
+      rgba(216, 16, 26, 0.9),
+      yellow 30%
+    );
+    z-index: 3;
+}
+
+.sunrise-gradient-orange {
+  background-image: linear-gradient(from top, rgba(275,255,255,0), rgba(5,245,255, 1) 90%);
+  z-index: 5;
 }
 
 .slippery-gradient {
