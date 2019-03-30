@@ -98,16 +98,18 @@ text-align: right;
 }
 
 .sunrise-gradient-red {
-  height: 80%;
-  width: 85%;
-  margin-left: 10%;
-  background-image: linear-gradient(
-      to left,
-      rgba(216, 16, 26, 0.9),
-      yellow 30%
-    );
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(
+    circle at top right,
+      rgba(250, 7, 19, 0.1),
+      rgba(240, 79, 15, 0.1) 30%);
     z-index: 3;
 }
+
+.sunrise-gradient-red-fade {
+background-image: linear-gradient(to right, white, transparent 90%);
+} 
 
 .sunrise-gradient-orange {
   background-image: linear-gradient(from top, rgba(275,255,255,0), rgba(5,245,255, 1) 90%);
