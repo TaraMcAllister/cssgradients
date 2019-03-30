@@ -1,0 +1,92 @@
+/* CSS RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+ /* TYPOGRAPHY */
+
+@font-face {
+  font-family: Escafina;
+  src: url(fonts/Escafina-High.otf);
+}
+
+@font-face {
+  font-family: Noah;
+  src: url(fonts/Noah-Regular.otf);
+}
+
+@font-face {
+  font-family: Noah-Italic;
+  src: url(fonts/Noah-Regular-Italic.otf);
+}
+
+html {
+  font-family: 'Noah', Merriweather, Arial, Sans-Serif;
+  color: #131313;
+   }
+
+ h1 {
+font-family: 'Escafina-High', Merriweather, Impact, Serif;
+font-size: 7rem;
+text-align: center;
+margin: 1rem 2rem 1rem 2rem;
+ }
+
+ h3 {
+  font-family: 'Noah', Merriweather, Arial, Sans-Serif;
+  font-size: 2rem;
+  text-align: center;
+   }
+
+   p {
+    font-family: 'Noah', Merriweather, Arial, Sans-Serif;
+    font-size: 1rem;
+     }
+
+ a {
+  font-family: 'Noah', Merriweather, Arial, Sans-Serif;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #131313;
+ }
+
+ a:hover {
+  font-family: 'Noah-Italic', Merriweather, Arial, Sans-Serif;
+  text-decoration: underline;
+ }
+
+ .grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 3rem;
+ }
+
+ .gradient-container {
+display: flexbox;
+align-content: center;
+   height: 20rem;
+   width: 15rem;
+ }
+
+ .grid a {
+   font-size: 0.7rem;
+  color: #7a7a7a;
+   }
+
+   /* GRADIENTS */
+
+.sunrise-gradient {
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+}
